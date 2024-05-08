@@ -3,11 +3,10 @@ import { useEffect } from "react";
 import Image from "next/image";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
-import FilterNav from "./components/FilterNav";
-import Product from "./components/Product";
 import { ApolloProvider, gql } from "@apollo/client";
 import { client } from "./ApolloClient";
 import Footer from "./components/Footer";
+import ProductSection from "./components/ProductSection";
 
 export default function Home() {
 
@@ -16,8 +15,7 @@ export default function Home() {
     <ApolloProvider client={client}>
       <Navbar />
       <Hero />
-      <FilterNav />
-      <Product />
+      <ProductSection/>
       <Footer/>
     </ApolloProvider>
   );
