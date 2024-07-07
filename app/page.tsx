@@ -1,22 +1,17 @@
 "use client";
-import { useEffect } from "react";
-import Image from "next/image";
-import Navbar from "./components/Navbar";
+import { ApolloProvider} from "@apollo/client";
+import {client} from "./lib/client"
+import ProductSection from "./build/ProductSection";
 import Hero from "./components/Hero";
-import { ApolloProvider, gql } from "@apollo/client";
-import { client } from "./ApolloClient";
-import Footer from "./components/Footer";
-import ProductSection from "./components/ProductSection";
 
 export default function Home() {
 
  
   return (
     <ApolloProvider client={client}>
-      <Navbar />
-      <Hero />
+    <Hero/>
       <ProductSection/>
-      <Footer/>
+      
     </ApolloProvider>
   );
 }

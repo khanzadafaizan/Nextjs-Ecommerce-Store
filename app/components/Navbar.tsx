@@ -105,29 +105,29 @@ function Navbar() {
               </button>
             </div>
           </div>
-          <div className=" flex flex-wrap justify-between mt-4">
-            <button className="mt-4 inline-flex items-center rounded border-0 px-3 py-1 text-base hover:bg-gray-200 focus:outline-none md:mt-0">
+          <ul className=" flex flex-wrap justify-between mt-4 gap-4 px-3">
+            <li className=" rounded border-0 py-1 px-2 text-base hover:bg-gray-200 focus:outline-none md:mt-0">
               Jewelry & Accessories
-            </button>
-            <button className="mt-4 ml-4 inline-flex items-center rounded border-0 px-3 py-1 text-base hover:bg-gray-200 focus:outline-none md:mt-0">
+            </li>
+            <li className=" rounded border-0 py-1 px-2 text-base hover:bg-gray-200 focus:outline-none md:mt-0">
               Clothing & Shoes
-            </button>
-            <button className="mt-4 ml-4 inline-flex items-center rounded border-0 px-3 py-1 text-base hover:bg-gray-200 focus:outline-none md:mt-0">
+            </li>
+            <li className=" rounded border-0 py-1 px-2 text-base hover:bg-gray-200 focus:outline-none md:mt-0">
               Home & Living
-            </button>
-            <button className="mt-4 ml-4 inline-flex items-center rounded border-0 px-3 py-1 text-base hover:bg-gray-200 focus:outline-none md:mt-0">
+            </li>
+            <li className=" rounded border-0 py-1 px-2 text-base hover:bg-gray-200 focus:outline-none md:mt-0">
               Wedding & Party
-            </button>
-            <button className="mt-4 ml-4 inline-flex items-center rounded border-0 px-3 py-1 text-base hover:bg-gray-200 focus:outline-none md:mt-0">
+            </li>
+            <li className=" rounded border-0 py-1 px-2 text-base hover:bg-gray-200 focus:outline-none md:mt-0">
               Toys & Entertainment
-            </button>
-            <button className="mt-4 ml-4 inline-flex items-center rounded border-0 px-3 py-1 text-base hover:bg-gray-200 focus:outline-none md:mt-0">
+            </li>
+            <li className=" rounded border-0 py-1 px-2 text-base hover:bg-gray-200 focus:outline-none md:mt-0">
               Art & Collectibles
-            </button>
-            <button className="mt-4 ml-4 inline-flex items-center rounded border-0 px-3 py-1 text-base hover:bg-gray-200 focus:outline-none md:mt-0">
+            </li>
+            <li className=" rounded border-0 py-1 px-2 text-base hover:bg-gray-200 focus:outline-none md:mt-0">
               Craft Supplies & Tools
-            </button>
-          </div>
+            </li>
+          </ul>
         </header>
       </div>
       {/* header top start */}
